@@ -15,7 +15,7 @@ pygame.init()
 tamaño_pantalla=[650,430]
 color_fondo=(0,120,0)
 pantalla=pygame.display.set_mode(tamaño_pantalla)
-pygame.display.set_icon(pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/boton.jpg"))
+pygame.display.set_icon(pygame.image.load("https://github.com/karloxkronfeld/Poker/blob/master/sonidos/boton.jpg"))
 pygame.display.set_caption("Mi Juego de Poker 1.0")
 reloj=pygame.time.Clock()
 
@@ -28,12 +28,12 @@ tamaño_cartas_ftr=(800,750)
 #boton play
 tamaño_boton=(110,110)
 ubica_boton=(475,70)
-boton_play=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/boton.jpg")
+boton_play=pygame.image.load("https://github.com/karloxkronfeld/Poker/blob/master/sonidos/boton.jpg")
 boton_play=pygame.transform.scale(boton_play,tamaño_boton) 
 
 lista_manos=[]
 historial=[]
-lista_cartas=os.listdir("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/")
+lista_cartas=os.listdir("https://github.com/karloxkronfeld/Poker/tree/master/cartas/")
 
 #sonido
 # pygame.mixer_music.load("C:/Users/Carlos/Desktop/python-MachineLearning/PROGRAMAS PYTHON/sonidos/nada.mp3")
@@ -113,13 +113,13 @@ def check_hand(siete_cartas):
         sonido("Nada")
 
 def sonido(ruta):
-    pygame.mixer.music.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/sonidos/"+ruta+".mp3")
+    pygame.mixer.music.load("https://github.com/karloxkronfeld/Poker/tree/master/sonidos/"+ruta+".mp3")
     pygame.mixer.music.play(0)
 
 
 def Poker():
     
-    mi_imagen1=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/imagen1.png")
+    mi_imagen1=pygame.image.load("https://github.com/karloxkronfeld/Poker/blob/master/sonidos/imagen1.png")
     mi_imagen1=pygame.transform.scale(mi_imagen1,(17,19)) 
 
     velocidad=12
@@ -163,27 +163,27 @@ def Poker():
                     check_hand(siete_cartas) #REVISAR QUE MANO TENGO
                   
                     #Cargar imagenes de INICIALES 
-                    iniciales1=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta1) #cargar imagen de la carta1
+                    iniciales1=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta1) #cargar imagen de la carta1
                     iniciales1= pygame.transform.scale(iniciales1,tamaño_cartas_inciales) #cambiar tamaño
                     # iniciales1 = pygame.transform.flip(iniciales1, False, False) #reflejar en x y en y
                     iniciales1 = pygame.transform.rotate(iniciales1, rotarcarta) #rotar carta
                     # iniciales1 = pygame.transform.chop(iniciales1, recortar_carta) #recortarcarta
-                    iniciales2=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta2) #cargar imagen de la carta2
+                    iniciales2=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta2) #cargar imagen de la carta2
                     iniciales2= pygame.transform.scale(iniciales2,tamaño_cartas_inciales) #cambiar tamaño  
                     iniciales2 = pygame.transform.rotate(iniciales2, -rotarcarta) #rotar carta
                     
                     #Cargar imagenes del flop
-                    flop1=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta3)
+                    flop1=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta3)
                     flop1= pygame.transform.scale(flop1,tamaño_cartas_ftr) #cambiar tamaño
-                    flop2=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta4)
+                    flop2=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta4)
                     flop2= pygame.transform.scale(flop2,tamaño_cartas_ftr)
-                    flop3=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta5)
+                    flop3=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta5)
                     flop3= pygame.transform.scale(flop3,tamaño_cartas_ftr)
 
                     #Cargar imagenes de turn y river
-                    turn=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta6)
+                    turn=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta6)
                     turn= pygame.transform.scale(turn,tamaño_cartas_ftr)
-                    river=pygame.image.load("C:/Users/Carlos/Desktop/python-MachineLearning-pygame/PYGAME/P o K e R/imagenes/cartas/"+carta7)
+                    river=pygame.image.load("https://github.com/karloxkronfeld/Poker/tree/master/cartas/"+carta7)
                     river= pygame.transform.scale(river,tamaño_cartas_ftr)
                        
                     #iniciales
