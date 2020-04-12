@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Mini Juego de Poker
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_El minijuego de poker tiene un codigo rapido y ligero._
 
 ## Comenzando 🚀
 
@@ -69,7 +69,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com/karloxkronfeld/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
 
@@ -83,14 +83,14 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **Carlos Morelo** - *Trabajo Inicial* - [karloxsl](https://github.com/karloxkronfeld)
 * **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [licencia.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
@@ -102,4 +102,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [karloxsl](https://github.com/karloxkronfeld) 😊
