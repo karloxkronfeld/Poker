@@ -1,21 +1,19 @@
 # Mini Juego de Poker
 
-_El minijuego de poker tiene un codigo rapido y ligero._
+El minijuego de poker tiene un codigo rapido y ligero. es poker en la modalidad texas holdem con 7 cartas, el juego que muestra, evalua y dice la mejor combinacion de cartas.
 
-## Comenzando 🚀
+![](https://media.giphy.com/media/XxopS0wpvbXgZqU8ei/giphy.gif)
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+## Comenzando 
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas. mira **Despliegue** para conocer como desplegar el proyecto.
 
+### Requisitos 
 
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+* [Pygame](https://www.pygame.org/wiki/GettingStarted)
+* [Scikit-Learn](https://scikit-learn.org/) 
+* [Numpy](https://numpy.org/) 
+* [Matplotlib](https://matplotlib.org/)
 
 ### Instalación 🔧
 
